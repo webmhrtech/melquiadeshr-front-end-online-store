@@ -1,1 +1,1 @@
-# melquiades-front-end-online-store
+#Melquiades - Front-end Online Store
