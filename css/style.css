@@ -1,0 +1,77 @@
+:root {
+    /* Colors */
+    --primary_color: #9999ff;
+    --second_color: #22dddd;
+    --white_color: #fff;
+    --black_color: #111;
+
+    /* Fonts*/
+    --main_font: 'Raleway', sans-serif; /* 'Raleway' >> Font from Google, sans-serif >> alternative font */
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+    min-width: 400px; /* The screen will have a minimum */
+}
+
+/********************************************************************** 
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    ENGLISH: apply a natural box layout model to all elements, but 
+    allowing components to change 
+
+    SPANISH: aplicar un modelo de diseño de caja natural a todos los 
+    elementos, pero permitiendo que los componentes cambien 
+    
+***********************************************************************/
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/***** Global *****/
+
+body {
+    font-size: 16px; /* e.g. 16px = 1rem  e.g.*/
+    font-family: var(--main_font);
+    line-height: 1.5rem;
+    background: var(--primary_color);
+}   
+
+h1 {
+    color: var(--second_color);
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--white_color);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--second_color);
+    font-family: var(--main_font);
+}
+
+h1 { font-size: 4rem; }
+
+h2 { font-size: 3.2rem; }
+
+h3 { font-size: 2.4rem; }
