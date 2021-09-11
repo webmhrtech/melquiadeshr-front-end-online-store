@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta product__name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melquiades - Online Store</title>
      <!-- STYLESHEET normalize.css -->
     <link rel="preload" href="css/normalize.css" as="style"> <!-- Load stylesheet faster -->
@@ -29,8 +29,29 @@
         <a class="nav__link" href="us.html">About us</a>
     </nav>
 
-    <main class="container-grid">
-        <h1>Product</h1>
+    <main class="container">
+        <h1>React JS</h1>
+
+        <div class="shirt">
+            <img class="shirt__image" src="img/3.jpg" alt="Image not found">
+
+            <div class="shirt__contain">
+                <p>Maecenas consectetur ultricies mi vel venenatis. Curabitur risus tellus, congue non tellus at, 
+                semper dapibus turpis. Duis pellentesque, risus sit amet placerat porttitor, tortor augue volutpat 
+                ante, non dignissim odio ligula at arcu.</p>
+
+                <form class="form">
+                    <select class="form__field">
+                        <option disabled selected>-- Select Size --</option>
+                        <option>Small</option>
+                        <option>Median</option>
+                        <option>Big</option>
+                    </select>
+                    <input class="form__field" type="number" placeholder="Amount" min="1">
+                    <input class="form__submit" type="submit" value="Add to cart">
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
